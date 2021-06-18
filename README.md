@@ -4,5 +4,5 @@ Tool to browse Shodan and discover possible C2 servers using queries from Aaron 
 
 ## For more info on the presentation:
 
-<https://github.com/aaronst/talks>
-<https://www.fireeye.com/blog/threat-research/2020/07/scandalous-external-detection-using-network-scan-data-and-automation.html>
+[Github](https://github.com/aaronst/talks)<br>
+[FireEye Blog](https://www.fireeye.com/blog/threat-research/2020/07/scandalous-external-detection-using-network-scan-data-and-automation.html)
