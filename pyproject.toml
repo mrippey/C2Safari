@@ -8,6 +8,7 @@ authors = ["Mike R <cr8syoki@gmail.com>"]
 python = "^3.9"
 requests = "^2.25.1"
 shodan = "^1.25.0"
+prompt-toolkit = "^3.0.19"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
