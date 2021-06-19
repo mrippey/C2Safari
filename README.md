@@ -30,10 +30,10 @@ $ poetry run
 Simply run the script, select a number from the menu and receive the first five results from Shodan. 
 
 
-## More info on the queries behind this project:
+## More info on the Shodan queries that inspired this project:
 [FireEye Article](https://www.fireeye.com/blog/threat-research/2020/07/scandalous-external-detection-using-network-scan-data-and-automation.html)
 
 
-## More Stuff
+## Finally
 Michael Rippey - [MyTwitter](https://twitter.com/nahamike01)<br>
 This project is licensed under GNU General Public License v3.0. See [LICENSE](https://github.com/msec1203/C2Safari/blob/master/LICENSE)
