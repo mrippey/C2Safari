@@ -10,8 +10,8 @@ Inspiration for this project came from Aaron Stephens presentation [Scan't Touch
  
 ## TODO
 - [ ] Add unit tests.
-- [ ] Refactor redundant functions in c2safari_queries.py to utilize a class.
-- [ ] Write output to file.
+- [ ] Get rid of redundant functions in c2safari_queries.py with a class.
+- [ ] Option to write output to file.
 - [ ] Provide user option to check IP address against GreyNoise API by index number.
 
 ## Prerequisites
