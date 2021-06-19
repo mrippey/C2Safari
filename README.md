@@ -1,11 +1,16 @@
-# C2-Safari Searcher
 <div align="center">
     <img src="https://github.com/msec1203/C2Safari/blob/master/header.png" width="800px"/>
 </div>
 
-Like many tools, Shodan queries can be a pain to type in multiple times. This tool seeks to ease some of that burden by<br>
-providing the user with a CLI menu of pre-selected queries to search for possible adversary C2 infrastructure.<br>
- Inspiration for this project came from Aaron Stephens presentation [Scan't Touch This](https://github.com/aaronst/talks).
+# C2-Safari Searcher
+
+Search queries can be cumbersome to write. This tool seeks to ease some of that burden by providing<br>
+a user with a CLI menu of pre-selected queries to search Shodan for possible adversary C2 infrastructure.<br>
+Inspiration for this project came from Aaron Stephens presentation [Scan't Touch This](https://github.com/aaronst/talks).
+ 
+## TODO
+- [ ] Add unit tests.
+- [ ] Refactor redundant functions in c2safari_queries.py to utilize a class.
 
 ## Getting Started
 $ git clone https://github.com/msec1203/c2safari.git<br>
