@@ -1,4 +1,7 @@
 # C2-Safari Searcher
+<div align="center>
+    <img src="c2safar/header.png" width="400px"/>
+</div>
 
 Like many tools, Shodan queries can be a pain to type in multiple times. This tool seeks to ease some of that burden by<br>
 providing the user with a CLI menu of pre-selected queries to search for possible adversary C2 infrastructure.<br>
