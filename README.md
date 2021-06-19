@@ -31,7 +31,7 @@ Simply run the script, select a number from the menu and receive the first five 
 
 
 ## More info on the queries behind this project:
-[FireEye Blog Article](https://www.fireeye.com/blog/threat-research/2020/07/scandalous-external-detection-using-network-scan-data-and-automation.html)
+[FireEye Article](https://www.fireeye.com/blog/threat-research/2020/07/scandalous-external-detection-using-network-scan-data-and-automation.html)
 
 
 ## More Stuff
