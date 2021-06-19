@@ -14,7 +14,12 @@ the user with a CLI menu of pre-selected queries to search for possible adversar
 [Github](https://github.com/aaronst/talks)<br>
 [FireEye Blog](https://www.fireeye.com/blog/threat-research/2020/07/scandalous-external-detection-using-network-scan-data-and-automation.html)
 
+<<<<<<< HEAD
 ## More Stuff
 Michael Rippey - [MyTwitter](https://twitter.com/nahamike01)
 This project is licensed under GNU General Public License v3.0. See [LICENSE](https://github.com/msec1203/C2Safari/blob/master/LICENSE)
 
+=======
+## License
+This project is licensed under GNU General Public License v3.0. See [LICENSE](https://github.com/msec1203/C2Safari/blob/master/LICENSE)
+>>>>>>> 2b323a315fb3cff650958d32210f36f4edd64cc2
