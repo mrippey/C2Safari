@@ -1,5 +1,5 @@
 # C2-Safari Searcher
-<div align="center>
+<div align="center">
     <img src="https://github.com/msec1203/C2Safari/blob/master/header.png" width="400px"/>
 </div>
 
@@ -28,4 +28,4 @@ Simply run the script, select a number from the menu and receive the first five 
 
 ## More Stuff
 Michael Rippey - [MyTwitter](https://twitter.com/nahamike01)<br>
-This project is licensed under GNU General Public License v3.0. See [LICENSE](https://github.com/msec1203/C2Safari/blob/master/LICENSE
+This project is licensed under GNU General Public License v3.0. See [LICENSE](https://github.com/msec1203/C2Safari/blob/master/LICENSE)
