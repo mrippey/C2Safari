@@ -14,6 +14,10 @@ Inspiration for this project came from Aaron Stephens presentation [Scan't Touch
 - [ ] Write output to file.
 - [ ] Provide user option to check IP address against GreyNoise API by index number.
 
+## Prerequisites
+Python3.9<br>
+[Poetry](https://python-poetry.org)
+
 ## Getting Started
 $ git clone https://github.com/msec1203/c2safari.git<br>
 $ cd c2safari/c2safari<br>
@@ -21,9 +25,6 @@ $ poetry shell<br>
 $ poetry install<br>
 $ poetry run 
 
-## Prerequisites
-Python3.9<br>
-[Poetry](https://python-poetry.org)
 
 ## Usage
 Simply run the script, select a number from the menu and receive the first five results from Shodan. 
