@@ -2,7 +2,7 @@
     <img src="https://github.com/msec1203/C2Safari/blob/master/header.png" width="800px"/>
 </div>
 
-# C2-Safari Searcher
+# C2-Safari Tool
 
 Search queries can be cumbersome to write. This tool seeks to ease some of that burden by providing<br>
 a user with a CLI menu of pre-selected queries to search Shodan for possible adversary C2 infrastructure.<br>
