@@ -1,6 +1,6 @@
 # C2-Safari Searcher
 <div align="center>
-    <img src="c2safar/header.png" width="400px"/>
+    <img src="header.png" width="400px"/>
 </div>
 
 Like many tools, Shodan queries can be a pain to type in multiple times. This tool seeks to ease some of that burden by<br>
@@ -8,14 +8,14 @@ providing the user with a CLI menu of pre-selected queries to search for possibl
  Inspiration for this project came from Aaron Stephens presentation [Scan't Touch This](https://github.com/aaronst/talks).
 
 ## Getting Started
-$ git clone https://github.com/msec1203/c2safari.git
-$ cd c2safari/c2safari
-$ poetry shell
-$ poetry install
+$ git clone https://github.com/msec1203/c2safari.git<br>
+$ cd c2safari/c2safari<br>
+$ poetry shell<br>
+$ poetry install<br>
 $ poetry run 
 
 ## Prerequisites
-Python3.9
+Python3.9<br>
 [Poetry](https://python-poetry.org)
 
 ## Usage
