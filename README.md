@@ -1,6 +1,6 @@
 # C2-Safari Searcher
 <div align="center>
-    <img src="header.png" width="400px"/>
+    <img src="https://github.com/msec1203/C2Safari/blob/master/header.png" width="400px"/>
 </div>
 
 Like many tools, Shodan queries can be a pain to type in multiple times. This tool seeks to ease some of that burden by<br>
