@@ -1,6 +1,6 @@
 # C2-Safari Searcher
 <div align="center">
-    <img src="https://github.com/msec1203/C2Safari/blob/master/header.png" width="400px"/>
+    <img src="https://github.com/msec1203/C2Safari/blob/master/header.png" width="800px"/>
 </div>
 
 Like many tools, Shodan queries can be a pain to type in multiple times. This tool seeks to ease some of that burden by<br>
@@ -23,7 +23,7 @@ Simply run the script, select a number from the menu and receive the first five 
 
 
 ## More info on the queries behind this project:
-[FireEye Blog](https://www.fireeye.com/blog/threat-research/2020/07/scandalous-external-detection-using-network-scan-data-and-automation.html)
+[FireEye Blog Article](https://www.fireeye.com/blog/threat-research/2020/07/scandalous-external-detection-using-network-scan-data-and-automation.html)
 
 
 ## More Stuff
