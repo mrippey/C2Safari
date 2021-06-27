@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/msec1203/c2safari/CodeQL?color=blue)
+![GitHub](https://img.shields.io/github/license/msec1203/c2safari?color=blue&style=flat-square)
 
 </div>
 
