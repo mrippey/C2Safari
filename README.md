@@ -3,7 +3,7 @@
     <img src="https://github.com/msec1203/C2Safari/blob/master/header.png" width="800px"/>
 </div>
 
-![License:MIT](https://img.shields.io/github.io/license/msec1203/c2safari?style=flat-square&color=blue)
+![GitHub](https://img.shields.io/github/license/msec1203/c2safari?color=orange)
 
 # C2-Safari Tool
 
