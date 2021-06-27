@@ -3,9 +3,11 @@
     <img src="https://github.com/msec1203/C2Safari/blob/master/header.png" width="800px"/>
 </div>
 
+<div align="center">
+    
 ![GitHub](https://img.shields.io/github/license/msec1203/c2safari?color=orange)
 
-
+</div>
 # C2-Safari Tool
 
 Search queries can be cumbersome to write. This tool seeks to ease some of that burden by providing<br>
