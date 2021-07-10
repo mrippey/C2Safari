@@ -36,12 +36,11 @@ def display_menu():
     print('Author: Michael Rippey')
     print() 
 
-    print(colors.GRAY + '1 ' +  colors.BLUE+'[Cobalt Strike]' + colors.WHITE+' Servers with similar HTTP response headers')
-    print(colors.GRAY + '2 ' +  colors.BLUE+'[Covenant C2]' + colors.WHITE+' Servers that may or may not be Covenant C2 infra')
-    print(colors.GRAY + '3 ' +  colors.BLUE+'[Responder]' + colors.WHITE+' Servers with hard-coded date from source code')
-    print(colors.GRAY + '4 ' +  colors.BLUE+'[Metasploit]' + colors.WHITE+' Servers with favicon hash similar to Metasploit')
-    print(colors.GRAY + 'Q ' +  colors.RED + 'Quit Program')
-
+    print(colors.GRAY + 'Query 1 ' +  colors.BLUE+'[Cobalt Strike Query]' + colors.WHITE+' product:cobalt strike team server')
+    print(colors.GRAY + 'Query 2 ' +  colors.BLUE+'[Covenant C2 Query]' + colors.WHITE+' ssl:Covenant http.component:Blazor')
+    print(colors.GRAY + 'Query 3 ' +  colors.BLUE+'[Responder Query]' + colors.WHITE+' HTTP/1.1 401 Unauthorized" "Date: Wed, 12 Sep 2012 13:06:55 GMT')
+    print(colors.GRAY + 'Query 4 ' +  colors.BLUE+'[Metasploit Query]' + colors.WHITE+' http.favicon.hash:"-127886975')
+    print(colors.GRAY + 'Q ' +  colors.RED + 'Quit Program' + colors.END)
 
 def main():
     while True:
@@ -49,16 +48,30 @@ def main():
         print('\n')
         menu_selection = input(colors.WHITE+'[MENU] ' + colors.GREEN+'Enter a selection from the choices above:  ' + colors.WHITE)
         print('\n')
-        if menu_selection == '1':
-            c2safari_queries.find_cs_servers()
-        elif menu_selection == '2':
-            c2safari_queries.find_cov_servers()
-        elif menu_selection == '3':
-            c2safari_queries.find_responder_servers()
-        elif menu_selection == '4':
-            c2safari_queries.find_meta_servers()
-        elif menu_selection.lower() == 'q':
+        query1 = 'product:"cobalt strike team server"'
+        query2 = 'ssl:Covenant http.component:Blazor'
+        query3 = "HTTP/1.1 401 Unauthorized" "Date: Wed, 12 Sep 2012 13:06:55 GMT"
+        query4 = 'http.favicon.hash:"-127886975"'
+
+        if menu_selection.lower() == 'q':
             sys.exit()
+        
+        elif menu_selection.lower() == '1':
+            for _q in [query1]:
+                c2safari_queries.base_shodan_query(_q)
+        
+        elif menu_selection.lower() == '2':
+            for _q in [query2]:
+                c2safari_queries.base_shodan_query(_q)
+        
+        elif menu_selection.lower() == '3':
+            for _q in [query3]:
+                c2safari_queries.base_shodan_query(_q)
+
+        elif menu_selection.lower() == '4':
+            for _q in [query4]:
+                c2safari_queries.base_shodan_query(_q)
+          
         else:
             print(f'Oops {menu_selection} was not recognized, try again')
 
